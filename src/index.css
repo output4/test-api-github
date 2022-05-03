@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.main {
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+    flex-direction: column;
+}
+.main .name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+.main .nick {
+    color: rgb(120 120 120);
+    text-align: left;
+}
+.main .avatar-image {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+.button {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid silver;
+}
+.followers {
+  display: flex;
+  margin-top: 5px;
+}
+.followers-row {
+  margin-right: 10px;
+}
+.followers-row-span {
+  font-weight: bold;
+}
