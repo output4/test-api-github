@@ -1,1 +1,1 @@
-export const TOKEN = null; // <-- insert github token here
+export const TOKEN = 'null'; // <-- insert github token here

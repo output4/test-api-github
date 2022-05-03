@@ -34,7 +34,7 @@ class App extends React.Component<any, IState> {
   render() {
     if (!TOKEN) {
       return (
-        <div>Please insert github token to file ./consts.ts</div>
+        <div>Please insert github token to file ./src/consts.ts</div>
       );
     }
     return (
